@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { NeonButtonComponent } from './neon-button/neon-button.component';
+import { NeonTextComponent } from './neon-text/neon-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    NeonButtonComponent
+    NeonButtonComponent,
+    NeonTextComponent,
   ],
   imports: [
     BrowserModule,
