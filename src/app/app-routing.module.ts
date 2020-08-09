@@ -5,6 +5,7 @@ import { NeonTextComponent } from './neon-text/neon-text.component';
 import { GlowingCircleComponent } from './glowing-circle/glowing-circle.component';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { HomeComponent } from './home/home.component';
+import { WavyTextComponent } from './wavy-text/wavy-text.component';
 
 const routes: Routes = [
   {
@@ -26,7 +27,11 @@ const routes: Routes = [
   {
     path:'glowing-circle',
     component:GlowingCircleComponent
-  }
+  },
+  {
+    path:'wavy-text',
+    component:WavyTextComponent
+    }
 ];
 
 @NgModule({

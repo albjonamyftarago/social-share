@@ -8,6 +8,7 @@ import { NeonButtonComponent } from './neon-button/neon-button.component';
 import { NeonTextComponent } from './neon-text/neon-text.component';
 import { GlowingCircleComponent } from './glowing-circle/glowing-circle.component';
 import { HomeComponent } from './home/home.component';
+import { WavyTextComponent } from './wavy-text/wavy-text.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeComponent } from './home/home.component';
     NeonTextComponent,
     GlowingCircleComponent,
     HomeComponent,
+    WavyTextComponent,
   ],
   imports: [
     BrowserModule,
