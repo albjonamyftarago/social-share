@@ -6,6 +6,7 @@ import { GlowingCircleComponent } from './glowing-circle/glowing-circle.componen
 import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { HomeComponent } from './home/home.component';
 import { WavyTextComponent } from './wavy-text/wavy-text.component';
+import { CircleComponent } from './circle/circle.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path:'wavy-text',
     component:WavyTextComponent
+    },
+    {
+      path:'circle',
+      component:CircleComponent
     }
 ];
 
