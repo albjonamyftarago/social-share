@@ -10,6 +10,7 @@ import { GlowingCircleComponent } from './glowing-circle/glowing-circle.componen
 import { HomeComponent } from './home/home.component';
 import { WavyTextComponent } from './wavy-text/wavy-text.component';
 import { CircleComponent } from './circle/circle.component';
+import { ElasticLineComponent } from './elastic-line/elastic-line.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { CircleComponent } from './circle/circle.component';
     HomeComponent,
     WavyTextComponent,
     CircleComponent,
+    ElasticLineComponent,
   ],
   imports: [
     BrowserModule,

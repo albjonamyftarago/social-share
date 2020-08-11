@@ -7,6 +7,7 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { HomeComponent } from './home/home.component';
 import { WavyTextComponent } from './wavy-text/wavy-text.component';
 import { CircleComponent } from './circle/circle.component';
+import { ElasticLineComponent } from './elastic-line/elastic-line.component';
 
 const routes: Routes = [
   {
@@ -36,7 +37,11 @@ const routes: Routes = [
     {
       path:'circle',
       component:CircleComponent
-    }
+    },
+    {
+      path:'elastic-line',
+      component:ElasticLineComponent
+    },                        
 ];
 
 @NgModule({
