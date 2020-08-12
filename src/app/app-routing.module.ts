@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { WavyTextComponent } from './wavy-text/wavy-text.component';
 import { CircleComponent } from './circle/circle.component';
 import { ElasticLineComponent } from './elastic-line/elastic-line.component';
+import { BubblesComponent } from './bubbles/bubbles.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
     {
       path:'elastic-line',
       component:ElasticLineComponent
+    },
+    {
+      path:'bubbles',
+      component:BubblesComponent
     },                        
 ];
 
