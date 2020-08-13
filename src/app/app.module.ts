@@ -12,6 +12,7 @@ import { WavyTextComponent } from './wavy-text/wavy-text.component';
 import { CircleComponent } from './circle/circle.component';
 import { ElasticLineComponent } from './elastic-line/elastic-line.component';
 import { BubblesComponent } from './bubbles/bubbles.component';
+import { TextDistorionComponent } from './text-distorion/text-distorion.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { BubblesComponent } from './bubbles/bubbles.component';
     CircleComponent,
     ElasticLineComponent,
     BubblesComponent,
+    TextDistorionComponent,
   ],
   imports: [
     BrowserModule,
