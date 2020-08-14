@@ -10,6 +10,7 @@ import { CircleComponent } from './circle/circle.component';
 import { ElasticLineComponent } from './elastic-line/elastic-line.component';
 import { BubblesComponent } from './bubbles/bubbles.component';
 import { TextDistorionComponent } from './text-distorion/text-distorion.component';
+import { GhostTextComponent } from './ghost-text/ghost-text.component';
 
 const routes: Routes = [
   {
@@ -51,6 +52,10 @@ const routes: Routes = [
     {
       path:'text-distorion',
       component:TextDistorionComponent
+    }, 
+    {
+      path:'ghost-text',
+      component:GhostTextComponent
     },       
 ];
 
