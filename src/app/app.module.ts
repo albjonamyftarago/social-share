@@ -14,6 +14,7 @@ import { ElasticLineComponent } from './elastic-line/elastic-line.component';
 import { BubblesComponent } from './bubbles/bubbles.component';
 import { TextDistorionComponent } from './text-distorion/text-distorion.component';
 import { GhostTextComponent } from './ghost-text/ghost-text.component';
+import { EmojiComponent } from './emoji/emoji.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { GhostTextComponent } from './ghost-text/ghost-text.component';
     BubblesComponent,
     TextDistorionComponent,
     GhostTextComponent,
+    EmojiComponent,
   ],
   imports: [
     BrowserModule,

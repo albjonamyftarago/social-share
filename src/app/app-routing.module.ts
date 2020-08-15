@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { NeonButtonComponent } from './neon-button/neon-button.component';
 import { NeonTextComponent } from './neon-text/neon-text.component';
@@ -11,6 +11,7 @@ import { ElasticLineComponent } from './elastic-line/elastic-line.component';
 import { BubblesComponent } from './bubbles/bubbles.component';
 import { TextDistorionComponent } from './text-distorion/text-distorion.component';
 import { GhostTextComponent } from './ghost-text/ghost-text.component';
+import { EmojiComponent } from './emoji/emoji.component';
 
 const routes: Routes = [
   {
@@ -50,13 +51,17 @@ const routes: Routes = [
       component:BubblesComponent
     },
     {
-      path:'text-distorion',
+      path:'text-distortion',
       component:TextDistorionComponent
     }, 
     {
       path:'ghost-text',
       component:GhostTextComponent
-    },       
+    },  
+    {   
+      path:'emoji',
+      component:EmojiComponent       
+    },     
 ];
 
 @NgModule({
