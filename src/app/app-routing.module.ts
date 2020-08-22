@@ -12,6 +12,7 @@ import { BubblesComponent } from './bubbles/bubbles.component';
 import { TextDistorionComponent } from './text-distorion/text-distorion.component';
 import { GhostTextComponent } from './ghost-text/ghost-text.component';
 import { EmojiComponent } from './emoji/emoji.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
 
 const routes: Routes = [
   {
@@ -61,7 +62,11 @@ const routes: Routes = [
     {   
       path:'emoji',
       component:EmojiComponent       
-    },     
+    },   
+    {   
+      path:'profile-page',
+      component:ProfilePageComponent
+    },        
 ];
 
 @NgModule({

@@ -15,6 +15,7 @@ import { BubblesComponent } from './bubbles/bubbles.component';
 import { TextDistorionComponent } from './text-distorion/text-distorion.component';
 import { GhostTextComponent } from './ghost-text/ghost-text.component';
 import { EmojiComponent } from './emoji/emoji.component';
+import { ProfilePageComponent } from './profile-page/profile-page.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { EmojiComponent } from './emoji/emoji.component';
     TextDistorionComponent,
     GhostTextComponent,
     EmojiComponent,
+    ProfilePageComponent,
   ],
   imports: [
     BrowserModule,
