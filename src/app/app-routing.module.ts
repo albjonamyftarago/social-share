@@ -17,7 +17,7 @@ import { ProfilePageComponent } from './profile-page/profile-page.component';
 const routes: Routes = [
   {
     path:'',
-    component:HomeComponent
+    component:ProfilePageComponent
   },
   {
     path:'social-icons',
@@ -64,8 +64,8 @@ const routes: Routes = [
       component:EmojiComponent       
     },   
     {   
-      path:'profile-page',
-      component:ProfilePageComponent
+      path:'works',
+      component:HomeComponent
     },        
 ];
 
