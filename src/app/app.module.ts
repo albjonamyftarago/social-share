@@ -16,6 +16,7 @@ import { TextDistorionComponent } from './text-distorion/text-distorion.componen
 import { GhostTextComponent } from './ghost-text/ghost-text.component';
 import { EmojiComponent } from './emoji/emoji.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
+import { ShiningTextComponent } from './shining-text/shining-text.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { ProfilePageComponent } from './profile-page/profile-page.component';
     GhostTextComponent,
     EmojiComponent,
     ProfilePageComponent,
+    ShiningTextComponent,
   ],
   imports: [
     BrowserModule,
