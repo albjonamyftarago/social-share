@@ -14,6 +14,7 @@ import { GhostTextComponent } from './ghost-text/ghost-text.component';
 import { EmojiComponent } from './emoji/emoji.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { ShiningTextComponent } from './shining-text/shining-text.component';
+import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
 
 const routes: Routes = [
   {
@@ -71,7 +72,11 @@ const routes: Routes = [
     {   
       path:'shining-text',
       component:ShiningTextComponent
-    },     
+    }, 
+    {   
+      path:'glowing-dots',
+      component:GlowingDotsComponent
+    },    
 ];
 
 @NgModule({
