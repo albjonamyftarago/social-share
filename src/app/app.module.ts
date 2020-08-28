@@ -18,6 +18,7 @@ import { EmojiComponent } from './emoji/emoji.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { ShiningTextComponent } from './shining-text/shining-text.component';
 import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
+import { DotsComponent } from './dots/dots.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
     ProfilePageComponent,
     ShiningTextComponent,
     GlowingDotsComponent,
+    DotsComponent,
   ],
   imports: [
     BrowserModule,

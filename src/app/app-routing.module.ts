@@ -15,6 +15,7 @@ import { EmojiComponent } from './emoji/emoji.component';
 import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { ShiningTextComponent } from './shining-text/shining-text.component';
 import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
+import { DotsComponent } from './dots/dots.component';
 
 const routes: Routes = [
   {
@@ -77,6 +78,10 @@ const routes: Routes = [
       path:'glowing-dots',
       component:GlowingDotsComponent
     },    
+    {   
+      path:'dots',
+      component:DotsComponent
+    },   
 ];
 
 @NgModule({
