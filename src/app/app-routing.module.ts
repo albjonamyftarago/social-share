@@ -16,6 +16,8 @@ import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { ShiningTextComponent } from './shining-text/shining-text.component';
 import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
 import { DotsComponent } from './dots/dots.component';
+import { WoodenTextComponent } from './wooden-text/wooden-text.component';
+import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 
 const routes: Routes = [
   {
@@ -77,7 +79,15 @@ const routes: Routes = [
     {   
       path:'glowing-dots',
       component:GlowingDotsComponent
-    },    
+    },  
+    {   
+      path:'wooden-text',
+      component:WoodenTextComponent
+    },  
+    {   
+      path:'ring-of-fire',
+      component:RingOfFireComponent
+    }, 
     {   
       path:'dots',
       component:DotsComponent

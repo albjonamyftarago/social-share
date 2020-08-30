@@ -19,6 +19,8 @@ import { ProfilePageComponent } from './profile-page/profile-page.component';
 import { ShiningTextComponent } from './shining-text/shining-text.component';
 import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
 import { DotsComponent } from './dots/dots.component';
+import { WoodenTextComponent } from './wooden-text/wooden-text.component';
+import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { DotsComponent } from './dots/dots.component';
     ShiningTextComponent,
     GlowingDotsComponent,
     DotsComponent,
+    WoodenTextComponent,
+    RingOfFireComponent,
   ],
   imports: [
     BrowserModule,
