@@ -18,6 +18,8 @@ import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
 import { DotsComponent } from './dots/dots.component';
 import { WoodenTextComponent } from './wooden-text/wooden-text.component';
 import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
+import { WavyCircleComponent } from './wavy-circle/wavy-circle.component';
+import { TextRotatorComponent } from './text-rotator/text-rotator.component';
 
 const routes: Routes = [
   {
@@ -91,7 +93,15 @@ const routes: Routes = [
     {   
       path:'dots',
       component:DotsComponent
-    },   
+    },  
+    {   
+      path:'wavy-circle',
+      component:WavyCircleComponent
+    }, 
+    {   
+      path:'text-rotator',
+      component:TextRotatorComponent
+    },
 ];
 
 @NgModule({

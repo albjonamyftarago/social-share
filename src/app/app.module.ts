@@ -21,6 +21,8 @@ import { GlowingDotsComponent } from './glowing-dots/glowing-dots.component';
 import { DotsComponent } from './dots/dots.component';
 import { WoodenTextComponent } from './wooden-text/wooden-text.component';
 import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
+import { WavyCircleComponent } from './wavy-circle/wavy-circle.component';
+import { TextRotatorComponent } from './text-rotator/text-rotator.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
     DotsComponent,
     WoodenTextComponent,
     RingOfFireComponent,
+    WavyCircleComponent,
+    TextRotatorComponent,
   ],
   imports: [
     BrowserModule,
