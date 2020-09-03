@@ -23,6 +23,7 @@ import { WoodenTextComponent } from './wooden-text/wooden-text.component';
 import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 import { WavyCircleComponent } from './wavy-circle/wavy-circle.component';
 import { TextRotatorComponent } from './text-rotator/text-rotator.component';
+import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { TextRotatorComponent } from './text-rotator/text-rotator.component';
     RingOfFireComponent,
     WavyCircleComponent,
     TextRotatorComponent,
+    GlowingRingComponent,
   ],
   imports: [
     BrowserModule,
