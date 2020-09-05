@@ -21,6 +21,8 @@ import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 import { WavyCircleComponent } from './wavy-circle/wavy-circle.component';
 import { TextRotatorComponent } from './text-rotator/text-rotator.component';
 import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
+import { RotationAnimationEffectsComponent } from './rotation-animation-effects/rotation-animation-effects.component';
+import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
 
 const routes: Routes = [
   {
@@ -106,6 +108,14 @@ const routes: Routes = [
     {   
       path:'glowing-ring',
       component:GlowingRingComponent
+    },
+    {   
+      path:'rotation-animation',
+      component:RotationAnimationEffectsComponent
+    },
+    {   
+      path:'colorful-shadow',
+      component:ColorfulShadowComponent
     },
 ];
 

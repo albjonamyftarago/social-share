@@ -24,6 +24,8 @@ import { RingOfFireComponent } from './ring-of-fire/ring-of-fire.component';
 import { WavyCircleComponent } from './wavy-circle/wavy-circle.component';
 import { TextRotatorComponent } from './text-rotator/text-rotator.component';
 import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
+import { RotationAnimationEffectsComponent } from './rotation-animation-effects/rotation-animation-effects.component';
+import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,8 @@ import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
     WavyCircleComponent,
     TextRotatorComponent,
     GlowingRingComponent,
+    RotationAnimationEffectsComponent,
+    ColorfulShadowComponent,
   ],
   imports: [
     BrowserModule,
