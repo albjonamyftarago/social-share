@@ -26,6 +26,7 @@ import { TextRotatorComponent } from './text-rotator/text-rotator.component';
 import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
 import { RotationAnimationEffectsComponent } from './rotation-animation-effects/rotation-animation-effects.component';
 import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
+import { FillTextComponent } from './fill-text/fill-text.component';
 
 @NgModule({
   declarations: [
@@ -53,6 +54,7 @@ import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.compo
     GlowingRingComponent,
     RotationAnimationEffectsComponent,
     ColorfulShadowComponent,
+    FillTextComponent,
   ],
   imports: [
     BrowserModule,
