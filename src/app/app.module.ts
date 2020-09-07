@@ -27,6 +27,7 @@ import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
 import { RotationAnimationEffectsComponent } from './rotation-animation-effects/rotation-animation-effects.component';
 import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
 import { FillTextComponent } from './fill-text/fill-text.component';
+import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import { FillTextComponent } from './fill-text/fill-text.component';
     RotationAnimationEffectsComponent,
     ColorfulShadowComponent,
     FillTextComponent,
+    LiquidButtonComponent,
   ],
   imports: [
     BrowserModule,

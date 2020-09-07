@@ -24,6 +24,7 @@ import { GlowingRingComponent } from './glowing-ring/glowing-ring.component';
 import { RotationAnimationEffectsComponent } from './rotation-animation-effects/rotation-animation-effects.component';
 import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
 import { FillTextComponent } from './fill-text/fill-text.component';
+import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
 
 const routes: Routes = [
   {
@@ -121,6 +122,10 @@ const routes: Routes = [
     {   
       path:'fill-text',
       component:FillTextComponent
+    },
+    {   
+      path:'liquid-button',
+      component:LiquidButtonComponent
     },
 ];
 
