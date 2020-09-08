@@ -25,6 +25,8 @@ import { RotationAnimationEffectsComponent } from './rotation-animation-effects/
 import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
 import { FillTextComponent } from './fill-text/fill-text.component';
 import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
+import { LIFECYCLE_HOOKS_VALUES } from '@angular/compiler/src/lifecycle_reflector';
+import { LightExplosionComponent } from './light-explosion/light-explosion.component';
 
 const routes: Routes = [
   {
@@ -126,6 +128,10 @@ const routes: Routes = [
     {   
       path:'liquid-button',
       component:LiquidButtonComponent
+    },
+    {   
+      path:'light-explosion',
+      component:LightExplosionComponent
     },
 ];
 
