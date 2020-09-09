@@ -29,6 +29,7 @@ import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.compo
 import { FillTextComponent } from './fill-text/fill-text.component';
 import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
 import { LightExplosionComponent } from './light-explosion/light-explosion.component';
+import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { LightExplosionComponent } from './light-explosion/light-explosion.compo
     FillTextComponent,
     LiquidButtonComponent,
     LightExplosionComponent,
+    JumpingDotComponent,
   ],
   imports: [
     BrowserModule,

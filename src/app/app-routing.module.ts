@@ -27,6 +27,7 @@ import { FillTextComponent } from './fill-text/fill-text.component';
 import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
 import { LIFECYCLE_HOOKS_VALUES } from '@angular/compiler/src/lifecycle_reflector';
 import { LightExplosionComponent } from './light-explosion/light-explosion.component';
+import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
 
 const routes: Routes = [
   {
@@ -132,6 +133,10 @@ const routes: Routes = [
     {   
       path:'light-explosion',
       component:LightExplosionComponent
+    },
+    {   
+      path:'jumping-dot',
+      component:JumpingDotComponent
     },
 ];
 
