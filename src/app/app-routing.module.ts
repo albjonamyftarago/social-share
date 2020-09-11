@@ -4,7 +4,6 @@ import { NeonButtonComponent } from './neon-button/neon-button.component';
 import { NeonTextComponent } from './neon-text/neon-text.component';
 import { GlowingCircleComponent } from './glowing-circle/glowing-circle.component';
 import { SocialIconsComponent } from './social-icons/social-icons.component';
-import { HomeComponent } from './home/home.component';
 import { WavyTextComponent } from './wavy-text/wavy-text.component';
 import { CircleComponent } from './circle/circle.component';
 import { ElasticLineComponent } from './elastic-line/elastic-line.component';
@@ -25,9 +24,10 @@ import { RotationAnimationEffectsComponent } from './rotation-animation-effects/
 import { ColorfulShadowComponent } from './colorful-shadow/colorful-shadow.component';
 import { FillTextComponent } from './fill-text/fill-text.component';
 import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
-import { LIFECYCLE_HOOKS_VALUES } from '@angular/compiler/src/lifecycle_reflector';
 import { LightExplosionComponent } from './light-explosion/light-explosion.component';
 import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { LoadingAnimationComponent } from './loading-animation/loading-animation.component';
 
 const routes: Routes = [
   {
@@ -80,7 +80,7 @@ const routes: Routes = [
     },   
     {   
       path:'works',
-      component:HomeComponent
+      component:ProjectsComponent
     },   
     {   
       path:'shining-text',
@@ -138,6 +138,10 @@ const routes: Routes = [
       path:'jumping-dot',
       component:JumpingDotComponent
     },
+    {   
+      path:'loading-animation',
+      component:LoadingAnimationComponent
+    }, 
 ];
 
 @NgModule({

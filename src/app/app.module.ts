@@ -7,7 +7,6 @@ import { SocialIconsComponent } from './social-icons/social-icons.component';
 import { NeonButtonComponent } from './neon-button/neon-button.component';
 import { NeonTextComponent } from './neon-text/neon-text.component';
 import { GlowingCircleComponent } from './glowing-circle/glowing-circle.component';
-import { HomeComponent } from './home/home.component';
 import { WavyTextComponent } from './wavy-text/wavy-text.component';
 import { CircleComponent } from './circle/circle.component';
 import { ElasticLineComponent } from './elastic-line/elastic-line.component';
@@ -30,6 +29,8 @@ import { FillTextComponent } from './fill-text/fill-text.component';
 import { LiquidButtonComponent } from './liquid-button/liquid-button.component';
 import { LightExplosionComponent } from './light-explosion/light-explosion.component';
 import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { LoadingAnimationComponent } from './loading-animation/loading-animation.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
     NeonButtonComponent,
     NeonTextComponent,
     GlowingCircleComponent,
-    HomeComponent,
+    ProjectsComponent,
     WavyTextComponent,
     CircleComponent,
     ElasticLineComponent,
@@ -61,6 +62,7 @@ import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
     LiquidButtonComponent,
     LightExplosionComponent,
     JumpingDotComponent,
+    LoadingAnimationComponent,
   ],
   imports: [
     BrowserModule,
