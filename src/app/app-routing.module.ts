@@ -28,6 +28,7 @@ import { LightExplosionComponent } from './light-explosion/light-explosion.compo
 import { JumpingDotComponent } from './jumping-dot/jumping-dot.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { LoadingAnimationComponent } from './loading-animation/loading-animation.component';
+import { ButtonComponent } from './button/button.component';
 
 const routes: Routes = [
   {
@@ -141,6 +142,10 @@ const routes: Routes = [
     {   
       path:'loading-animation',
       component:LoadingAnimationComponent
+    }, 
+    {   
+      path:'button',
+      component:ButtonComponent
     }, 
 ];
 
